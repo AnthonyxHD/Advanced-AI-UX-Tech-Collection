@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&display=swap");
+@import "tailwindcss";
+
+:root {
+  --page-bg: #2b2828;
+  --panel-bg: #050505;
+  --panel-border: rgba(255, 255, 255, 0.13);
+  --text-main: #f4f1eb;
+  --text-muted: rgba(244, 241, 235, 0.62);
+  --bubble-bg: rgba(255, 255, 255, 0.08);
+  --bubble-border: rgba(255, 255, 255, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100svh;
+  margin: 0;
+  background: var(--page-bg);
+  font-family: "Inter", sans-serif;
+  color: var(--text-main);
+}
+
+a {
+  color: inherit;
+}
